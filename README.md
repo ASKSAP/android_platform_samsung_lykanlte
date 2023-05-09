@@ -1,3 +1,4 @@
+```
 How to build Module for Platform
 - It is only for modules are needed to using Android build system.
 - Please check its own install information under its folder for other module.
@@ -28,11 +29,11 @@ PRODUCT_PACKAGES += \
     libext2_blkid \
     ibext2_e2p \
     resize2fs
-    
+  
 # libexifa
 PRODUCT_PACKAGES += \
     libexifa.camera.samsung
-    
+
 # libjpega
 PRODUCT_PACKAGES += \
     libjpega.camera.samsung
@@ -40,7 +41,7 @@ PRODUCT_PACKAGES += \
 # KeyUtils
 PRODUCT_PACKAGES += \
     libknox_keyutils
-   
+
 4. excute build command
    ./build_64bit.sh
 
@@ -60,3 +61,4 @@ PRODUCT_PACKAGES += \
 	- SamsungDataStore.apk : "SamsungDataStore"
 	- SamsungMessages_11.apk : "Messaging"
 	- SamsungConnect.apk : "SamsungConnect"
+```
